@@ -4,6 +4,12 @@ A bilingual, reader-first atlas for Bhartṛhari's works.
 
 This project is a static web app that helps readers enter Bhartṛhari through lived situations rather than through disconnected verse lists. It combines a calm editorial UI, source-backed corpus data, and a growing discovery system across ethics, love, detachment, and language.
 
+![Bhartṛhari Atlas preview](assets/social-preview.png)
+
+Planned live URL:
+
+- add your Netlify site URL here once deployed
+
 ## What this is
 
 Most verse collections preserve the text but not the pathway into it.
