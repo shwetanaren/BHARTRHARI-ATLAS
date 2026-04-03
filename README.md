@@ -6,9 +6,9 @@ This project is a static web app that helps readers enter Bhartṛhari through l
 
 ![Bhartṛhari Atlas preview](assets/social-preview.png)
 
-Planned live URL:
+Live URL:
 
-- add your Netlify site URL here once deployed
+- [https://bhartrhari-atlas.netlify.app](https://bhartrhari-atlas.netlify.app)
 
 ## What this is
 
