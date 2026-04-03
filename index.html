@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhartṛhari Atlas | భర్తృహరి సుభాషితాలు</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&amp;family=Noto+Sans+Telugu:wght@400;500;700&amp;family=Noto+Serif+Devanagari:wght@500;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="niti-library.js"></script>
+    <script src="sringara-library.js"></script>
+    <script src="vairagya-library.js"></script>
+    <script src="vakya-library.js"></script>
+    <script src="niti-renderings.js"></script>
+    <script src="sringara-renderings.js"></script>
+    <script src="vairagya-renderings.js"></script>
+    <script src="vakya-renderings.js"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="masthead" id="top">
+        <nav class="topbar" aria-label="Primary">
+          <a class="brand" href="#top">
+            <span class="brand-mark">भर्तृहरि</span>
+            <span class="brand-text" data-i18n="brandText">Bhartṛhari Atlas</span>
+          </a>
+
+          <div class="topbar-links">
+            <a href="#begin" data-i18n="navBegin">Begin</a>
+            <a href="#pathways" data-i18n="navPathways">Pathways</a>
+            <a href="#library" data-i18n="navLibrary">Library</a>
+            <a href="#works" data-i18n="navWorks">Works</a>
+            <a href="#sources" data-i18n="navSources">Sources</a>
+          </div>
+
+          <div class="language-toggle" role="group" aria-label="Language">
+            <button
+              type="button"
+              class="language-button is-active"
+              data-language="en"
+              aria-pressed="true"
+            >
+              English
+            </button>
+            <button
+              type="button"
+              class="language-button"
+              data-language="te"
+              aria-pressed="false"
+            >
+              తెలుగు
+            </button>
+          </div>
+        </nav>
+
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="heroEyebrow">For lived questions</p>
+            <h1 data-i18n="heroTitle">
+              Find the teaching that fits the moment you are living.
+            </h1>
+            <p class="hero-lead" data-i18n="heroLead">
+              Bhartṛhari becomes easier to enter when the verses are read as
+              connected streams of speech, conduct, desire, detachment, and
+              meaning. Begin with the question already alive in you, then
+              follow the thread in English or Telugu.
+            </p>
+            <div class="hero-actions">
+              <a
+                class="button button-primary"
+                href="#pathways"
+                data-i18n="heroPrimary"
+              >
+                Begin with your situation
+              </a>
+              <a
+                class="button button-secondary"
+                href="#library"
+                data-i18n="heroSecondary"
+              >
+                Open the Nīti library
+              </a>
+            </div>
+
+            <div class="hero-metrics" aria-label="Atlas summary">
+              <div class="metric">
+                <span class="metric-number">7</span>
+                <span class="metric-label" data-i18n="metricPathways">
+                  Pathways into speech, friendship, love, loss, learning,
+                  ambition, and leadership
+                </span>
+              </div>
+              <div class="metric">
+                <span class="metric-number">4</span>
+                <span class="metric-label" data-i18n="metricWorks">
+                  Major works returning through ethics, beauty, detachment, and
+                  language
+                </span>
+              </div>
+              <div class="metric">
+                <span class="metric-number">1405</span>
+                <span class="metric-label" data-i18n="metricPractice">
+                  Sourced verses now browseable across the growing verse library
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <aside class="hero-preview surface-panel" aria-live="polite">
+            <div id="hero-preview"></div>
+          </aside>
+        </div>
+      </header>
+
+      <main class="main-layout">
+        <div class="main-content">
+          <section class="editorial-section" id="begin">
+            <div class="section-header">
+              <p class="eyebrow" data-i18n="beginEyebrow">How to begin</p>
+              <h2 data-i18n="beginTitle">
+                Begin where life already feels charged
+              </h2>
+            </div>
+
+            <div class="premise-grid">
+              <article class="essay-card surface-panel">
+                <h3 data-i18n="beginCardOneTitle">Start from life</h3>
+                <p data-i18n="beginCardOneBody">
+                  Do not begin with quantity. Begin with the question, tension,
+                  or feeling that already has hold of you.
+                </p>
+              </article>
+              <article class="essay-card surface-panel">
+                <h3 data-i18n="beginCardTwoTitle">Follow the thread</h3>
+                <p data-i18n="beginCardTwoBody">
+                  One verse opens into a family of concerns: speech into
+                  friendship, ambition into detachment, love into honesty.
+                </p>
+              </article>
+              <article class="essay-card surface-panel">
+                <h3 data-i18n="beginCardThreeTitle">Carry one practice</h3>
+                <p data-i18n="beginCardThreeBody">
+                  A visit matters when it changes what you notice, restrain,
+                  speak, or release in the next hour of your life.
+                </p>
+              </article>
+            </div>
+
+            <div class="pull-panel surface-panel">
+              <p class="pull-label" data-i18n="beginNoteLabel">Reading note</p>
+              <p class="pull-line" data-i18n="beginNoteText">
+                Do not enter through accumulation. Enter through the question
+                that is already asking something of you.
+              </p>
+            </div>
+          </section>
+
+          <section class="editorial-section" id="pathways">
+            <div class="section-header">
+              <p class="eyebrow" data-i18n="pathwaysEyebrow">Pathways</p>
+              <h2 data-i18n="pathwaysTitle">
+                Choose a life situation and let the teaching gather around it
+              </h2>
+            </div>
+
+            <div class="demo-layout">
+              <aside class="gateway-panel surface-panel">
+                <div class="panel-intro">
+                  <h3 data-i18n="panelTitle">Start with your situation</h3>
+                  <p data-i18n="panelBody">
+                    Choose the pressure point first. Let the reading meet the
+                    life you are already living.
+                  </p>
+                </div>
+
+                <div class="context-list" id="context-list"></div>
+              </aside>
+
+              <section
+                class="detail-stage surface-panel"
+                id="context-detail"
+                aria-live="polite"
+              ></section>
+            </div>
+          </section>
+
+          <section class="editorial-section" id="library">
+            <div class="section-header">
+              <p class="eyebrow" data-i18n="libraryEyebrow">Library</p>
+              <h2 data-i18n="libraryTitle">
+                Read through the Nīti Śataka as a real verse library
+              </h2>
+            </div>
+
+            <a class="skip-link library-skip-link" href="#library-detail">
+              Skip to the selected verse
+            </a>
+
+            <div class="demo-layout library-layout">
+              <aside class="gateway-panel library-rail surface-panel">
+                <div class="panel-intro">
+                  <h3 data-i18n="libraryPanelTitle">Verse library</h3>
+                  <p data-i18n="libraryPanelBody">
+                    Choose a work, begin from a situation, then open a verse.
+                    Each library follows a cited base text so the reading can
+                    stay trustworthy as the atlas grows.
+                  </p>
+                </div>
+
+                <div class="library-work-switch" id="library-work-switch"></div>
+
+                <label class="search-shell" for="library-search">
+                  <span class="search-label" data-i18n="librarySearchLabel">
+                    Search the library
+                  </span>
+                  <input
+                    id="library-search"
+                    class="search-input"
+                    type="search"
+                    data-i18n-placeholder="librarySearchPlaceholder"
+                    placeholder="Try 23 or sat-saṅgatiḥ"
+                    autocomplete="off"
+                    spellcheck="false"
+                  />
+                </label>
+
+                <div class="library-summary surface-inset" id="library-summary"></div>
+                <div class="library-browse-label">
+                  <p class="search-label" data-i18n="libraryGuideLabel">
+                    Start with a situation
+                  </p>
+                </div>
+                <div class="library-list" id="library-list"></div>
+              </aside>
+
+              <section
+                class="detail-stage surface-panel"
+                id="library-detail"
+                aria-live="polite"
+                aria-labelledby="library-detail-title"
+                tabindex="-1"
+              ></section>
+            </div>
+          </section>
+
+          <section class="editorial-section" id="works">
+            <div class="section-header">
+              <p class="eyebrow" data-i18n="worksEyebrow">The works</p>
+              <h2 data-i18n="worksTitle">
+                Four streams return again and again throughout the atlas
+              </h2>
+            </div>
+
+            <div class="atlas-rows" id="works-rows"></div>
+
+            <div class="flow-panel surface-panel">
+              <p class="eyebrow" data-i18n="visitLabel">One visit</p>
+              <div class="flow-steps" aria-label="Reader flow">
+                <span data-i18n="visitSituation">Situation</span>
+                <span data-i18n="visitVerse">Verse</span>
+                <span data-i18n="visitConnection">Connection</span>
+                <span data-i18n="visitMeaning">Meaning</span>
+                <span data-i18n="visitPractice">Practice</span>
+                <span data-i18n="visitReturn">Return</span>
+              </div>
+            </div>
+          </section>
+
+          <footer class="editorial-section footer-section" id="sources">
+            <div class="section-header">
+              <p class="eyebrow" data-i18n="sourcesEyebrow">Sources</p>
+              <h2 data-i18n="sourcesTitle">
+                Texts, traditions, and translations behind this atlas
+              </h2>
+            </div>
+
+            <div class="footer-grid">
+              <div class="footer-panel surface-panel">
+                <h3 data-i18n="textsTitle">Texts consulted</h3>
+                <ul class="source-list">
+                  <li>
+                    <a
+                      href="https://sa.wikisource.org/wiki/%E0%A4%AD%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A5%83%E0%A4%B9%E0%A4%B0%E0%A4%BF%E0%A4%B6%E0%A4%A4%E0%A4%95%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AF%E0%A5%80"
+                      data-i18n="sourceWikisource"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Śatakatrayī on Wikisource
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_bhatRhari-zatakatraya.htm"
+                      data-i18n="sourceGretil"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Śatakatraya on GRETIL
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://archive.org/details/twocenturiesofbh00bhar"
+                      data-i18n="sourceTwoCenturies"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Two Centuries of Bhartrihari
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://archive.org/details/vairagyasatakamo025367mbp"
+                      data-i18n="sourceVairagya"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Vairagya Satakam scan
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer-panel surface-panel">
+                <h3 data-i18n="readingNoteTitle">Reading note</h3>
+                <p data-i18n="readingNoteLineOne">
+                  Dates and biographical details around Bhartṛhari vary across
+                  traditions, even while the power of the works endures.
+                </p>
+                <p data-i18n="readingNoteLineTwo">
+                  This atlas reads the works as connected pathways so that the
+                  reader can enter through lived experience as well as text.
+                </p>
+              </div>
+            </div>
+
+            <p class="footer-credit">
+              <span data-i18n="footerCreditPrefix">Prepared by</span>
+              <a href="https://shwetanarendernath.com" target="_blank" rel="noreferrer">
+                Shweta Narendernath
+              </a>
+              <span data-i18n="footerCreditSuffix">in collaboration with AI coding agents.</span>
+            </p>
+          </footer>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
