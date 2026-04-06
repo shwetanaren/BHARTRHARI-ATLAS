@@ -38,7 +38,7 @@ Current rendering coverage:
 - `Nīti Śataka`: full English rendering coverage
 - `Śṛṅgāra Śataka`: full English rendering coverage
 - `Vairāgya Śataka`: full English rendering coverage
-- `Vākyapadīya`: seeded English rendering coverage, focused first on guide-path kārikās
+- `Vākyapadīya`: curated English rendering coverage across the main sections, with the full source library available for the complete text
 
 The interface is bilingual at the UI layer, with growing Telugu rendering coverage for selected high-signal verses and kārikās.
 
@@ -197,7 +197,7 @@ Important note:
 
 This is already a functioning public-facing prototype, but it is still growing in three directions:
 
-- deeper rendering coverage, especially in `Vākyapadīya`
+- selective expansion of `Vākyapadīya` renderings only where a main section needs more continuity
 - broader Telugu coverage
 - stronger cross-work discovery and verse-level trust notes
 
